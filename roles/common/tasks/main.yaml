@@ -5,8 +5,8 @@
 - name: MSG-2
   debug:
     msg: "Hi, I am from MSG-2 "
-  # tags:
-  # - hello
+  tags:
+  - hello
 
 - name: change fact
   set_fact:
