@@ -1,0 +1,11 @@
+- name: MSG-1
+  debug:
+    msg: "Hi, I am from MSG-1"
+
+- name: MSG-2
+  debug:
+    msg: "Hi, I am from MSG-2"
+
+- name: MSG-3
+  debugd:
+    msg: "Hi, I am from MSG-3"
