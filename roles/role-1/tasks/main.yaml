@@ -1,3 +1,4 @@
 - name: include-vs-import
-  include_role:
+  #include_role:
+  import_role:
     name: common
