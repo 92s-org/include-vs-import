@@ -2,4 +2,4 @@
   #include_role:
   import_role:
     name: common
-  when: OS == "RedHat"
+  when: os == "RedHat"
