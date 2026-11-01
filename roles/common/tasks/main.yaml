@@ -6,7 +6,7 @@
   debug:
     msg: "Hi, I am from MSG-2 "
   tags:
-  - hello
+  - hi
 
 - name: change fact
   set_fact:
