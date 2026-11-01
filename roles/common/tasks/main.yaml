@@ -11,5 +11,5 @@
     os: "Debian"
 
 - name: MSG-3
-  debugd:
+  debug:
     msg: "Hi, I am from MSG-3"
