@@ -6,6 +6,10 @@
   debug:
     msg: "Hi, I am from MSG-2"
 
+- name: change fact
+  set_fact:
+    os: "Debian"
+
 - name: MSG-3
   debugd:
     msg: "Hi, I am from MSG-3"
