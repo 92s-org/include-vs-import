@@ -4,7 +4,7 @@
 
 - name: MSG-2
   debug:
-    msg: "Hi, I am from MSG-2 {{ item }}"
+    msg: "Hi, I am from MSG-2 "
   tags:
   - hello
 
