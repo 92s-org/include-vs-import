@@ -4,13 +4,15 @@
 
 - name: MSG-2
   debug:
-    msg: "Hi, I am from MSG-2"
+    msg: "Hi, I am from MSG-2 {{ item }}"
   tags:
   - hello
 
 - name: change fact
   set_fact:
     os: "Debian"
+  tags:
+  - hi
 
 - name: MSG-3
   debug:
